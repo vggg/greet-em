@@ -1,0 +1,4 @@
+
+exports.contactus = function(req, res){
+  res.render('contactus', { title: 'Contact Us' });
+};
